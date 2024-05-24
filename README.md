@@ -73,16 +73,16 @@ make
 You can provide input through standard input, for example by using a file:
 
 ```sh
-./bst_sort < input.txt
+./bst_sort < test.txt
 ```
 
 ## Example
 Given the input:
 ```
-1 10 3 2 20 30 4 18 11
+1091238 12381 123 13 12415 56765 758 8978 345 3543 5345
 ```
 
 The program will output:
 ```
-1 2 3 4 10 11 18 20 30
+13 123 345 758 3543 5345 8978 12381 12415 56765 1091238
 ```
